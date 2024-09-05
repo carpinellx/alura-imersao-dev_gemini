@@ -13,6 +13,8 @@ function pesquisar() {
           <h2>
             <a href="https://www.instagram.com/acmilan/" target="_blank">${dado.titulo}</a>
           </h2>
+          <p> Estadio: ${dado.estadio} </p>
+          <p> ${dado.localizacao}, ${dado.pais} </p>
           <p class="item-resultado">${dado.descricao}</p>
           <a href=${dado.link} target="_blank">Mais Informações</a>
         </div>
