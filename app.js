@@ -11,10 +11,15 @@ function pesquisar() {
       resultados += `
         <div class="item-resultado">
           <h2>
-            <a href="https://www.instagram.com/acmilan/" target="_blank">${dado.titulo}</a>
+            <a href="#" target="_blank">${dado.titulo}</a>
           </h2>
+          <div class="item-resultado1">
+          <p class="item-info"> ${dado.localizacao}, ${dado.pais} </p>
+          <p> Titulo(s): ${dado.titulos} </p>
+          <p> Desde: ${dado.fundado} </p>
           <p> Estadio: ${dado.estadio} </p>
-          <p> ${dado.localizacao}, ${dado.pais} </p>
+          <p> Maior rival: ${dado.rival}
+          </div>
           <p class="item-resultado">${dado.descricao}</p>
           <a href=${dado.link} target="_blank">Mais Informações</a>
         </div>
