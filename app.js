@@ -11,7 +11,7 @@ function pesquisar() {
       resultados += `
         <div class="item-resultado">
           <h2>
-            <a href="#" target="_blank">${dado.titulo}</a>
+            <a href="#" style="color: ${dado.corPrincipal}" target="_blank">${dado.titulo}</a>
           </h2>
           <div class="item-resultado1">
           <p class="item-info">De: ${dado.localizacao}, ${dado.pais} </p>
