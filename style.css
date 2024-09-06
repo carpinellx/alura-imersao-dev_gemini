@@ -100,14 +100,6 @@ section button:hover {
     color: #222831; /* Cor do texto */
 }
 
-/* Estiliza as curiosidades dos times */
-.item-resultado1 {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 10px;
-    font-size: 30px;
-}
-
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
@@ -119,12 +111,14 @@ section button:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
 
-/* Estiliza as curiosidades dos times */
+/* Estiliza as curiosidades dos times
+   Cria um layout flexível com os elementos alinhados horizontalmente,
+   separados por uma margem e com um tamanho de fonte específico. */
 .item-resultado1 {
     display: flex;
     justify-content: space-between;
     margin: 0 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
