@@ -62,7 +62,7 @@ section button:hover {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
+    width: 70rem; /* Largura máxima da caixa de resultados */
     height: 46vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
@@ -98,6 +98,14 @@ section button:hover {
     text-align: center;
     font-size: 2.0rem; /* Tamanho da fonte */
     color: #222831; /* Cor do texto */
+}
+
+/* Estiliza as curiosidades dos times */
+.item-resultado1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    font-size: 30px;
 }
 
 /* Estiliza os links dentro dos itens de resultado */
