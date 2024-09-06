@@ -14,7 +14,7 @@ function pesquisar() {
             <a href="#" target="_blank">${dado.titulo}</a>
           </h2>
           <div class="item-resultado1">
-          <p class="item-info"> ${dado.localizacao}, ${dado.pais} </p>
+          <p class="item-info">De: ${dado.localizacao}, ${dado.pais} </p>
           <p> Titulo(s): ${dado.titulos} </p>
           <p> Desde: ${dado.fundado} </p>
           <p> Estadio: ${dado.estadio} </p>
