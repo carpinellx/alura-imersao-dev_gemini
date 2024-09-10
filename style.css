@@ -183,8 +183,16 @@ footer {
     }
 
     .resultados-pesquisa {
-        width: 90%; /* Largura da caixa de resultados em telas pequenas */
+        width: 100%; /* Largura da caixa de resultados em telas pequenas */
         height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+        margin: 0;
+        padding: 0;
+    
+    }
+
+    .item-resultado1 {
+        font-size: small;
+
     }
 
     .item-resultado h2 {
