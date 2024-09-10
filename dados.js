@@ -60,7 +60,7 @@ let dados = [
         link: "https://www.transfermarkt.com.br/atletico-madrid/startseite/verein/40"
     },
     {
-        titulo: "Barcelona",
+        titulo: "FC Barcelona",
         pais: "Espanha",
         localizacao: "Barcelona",
         estadio: "Camp Nou",
