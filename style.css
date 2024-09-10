@@ -192,6 +192,13 @@ footer {
     }
 
     footer {
-        font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #f0f0f0; /* Cor de fundo do footer */
+        text-align: center; /* Centralizar o conteúdo do footer */
+        width: 100%; /* Ocupa toda a largura da tela */
+        /* Outras propriedades de estilo */
     }
 }
