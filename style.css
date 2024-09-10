@@ -127,6 +127,11 @@ section button:hover {
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
+/*Estiliza a mensagem de "busca vazia"*/
+.mensagem-erro {
+    color: rgb(255, 255, 255);
+  }
+
 /* Estiliza o rodapé da página */
 footer {
     background-color: #F5F7F8; /* Cor de fundo do rodapé */
